@@ -32,7 +32,7 @@ public class Main{
 		}
 		catch(KimoException e){
 			e.message();
-		} // Commento di prova
+		}
 
 		System.out.println("risultato: 1/d = " + length + " cifre con d = " + res); //fa casino nel riconoscere i cicli, nel senso che non li riconosce con l'ordine di cifre giusto, esempio d = 7
 	}
